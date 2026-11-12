@@ -1,0 +1,109 @@
+/* === IMPORTAÇÃO DE FONTES */
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+/*
+Fontes Disponíveis:
+// Sugiro usar esta 
+font-family: "Urbanist", sans-serif; 
+font-family: "Fredoka", sans-serif;
+font-family: "Epilogue", sans-serif;
+font-family: "Nunito", sans-serif;
+font-family: "Oswald", sans-serif;
+*/
+/* ==========================*/
+
+/* ==== FORMATAÇÃO GERAL === */
+html{
+    font-size: clamp(1rem, 2vw + 0.8rem, 3rem); 
+    background-color: rgb(207, 240, 237);
+}
+header {
+    padding: 10px 0px 10px;
+    display: flex;
+    flex-direction: column;
+}
+header ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 15px;
+}
+header img {
+    padding: 0px 0px 10px;
+}
+header ul li.bnt {
+    background-color: rgb(38, 178, 224);
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+    margin: 10px;
+}
+
+/* banner */
+section.banner {
+    background-color: #510499;
+    border-radius: 10px;
+    padding: 5rem 2rem;
+    color: white;
+    margin: 15px;
+}
+section.banner h1 {
+    font-size: 1.5rem;
+    padding: 0px 0px 20px;
+    text-align: center;
+}
+section.banner p {
+    text-align: center;
+}
+section.web {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 10px;
+}
+section.web h2 {
+    text-align: center;
+    padding: 7px 0px 7px;
+    font-weight: bold;
+}
+section.web p span {
+    background-color: rgb(198, 233, 238);
+    padding: 10px 10px 10px;
+    border-radius: 20px;
+    color: rgb(123, 123, 226);
+}
+section.web p {
+    padding: 10px 0px 10px;
+}
+section.escritorio h3 {
+    text-align: center;
+    font-weight: bold;
+}
+section.escritorio h1 {
+    font-size: 1.5rem;
+    padding: 20px 0px 100px;
+}
+section.escritorio ul img{
+    width: 30%;
+    margin: 0px 215px;
+}
+footer {
+    background-color: rgb(14, 13, 13);
+    padding: 10vw;
+}
+footer p {
+    color: white;
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+
+/* MEDIA QUERY - DESKTOP */
+@media  screen and (min-width: 600px) {
+    
+}
